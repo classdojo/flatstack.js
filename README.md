@@ -10,7 +10,12 @@ queue.push(function() {
 
 //if argument[0] is present, then it's async
 queue.push(function(next) {
-   setTimeout(queue.pause().resume, 0);
+   setTimeout(next, 0);
+});
+
+//called immediately
+queue.push(function() {
+  
 });
 
 queue.run();
