@@ -1,6 +1,6 @@
 {
   "name": "flatstack",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "flatstack.js ============",
   "main": "./lib/index.js",
   "scripts": {

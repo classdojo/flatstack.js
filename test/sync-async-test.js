@@ -1,5 +1,6 @@
 var expect = require("expect.js"),
 flatstack  = require("..");
+flatstack.asyncLimit = 0;
 
 describe("flatstack", function() {
   var queue = flatstack();
