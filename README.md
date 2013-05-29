@@ -16,6 +16,10 @@ queue.push(function(next) {
 //called immediately
 queue.push(function() {
   
+  //but look, you can inject functions before the next one is called!
+  queue.unshift(function() {
+    queue.pause.resume(); //calls async timeout
+  });
 });
 
 queue.run();
