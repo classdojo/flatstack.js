@@ -21,6 +21,4 @@ queue.push(function() {
     queue.pause.resume(); //calls async timeout
   });
 });
-
-queue.run();
 ```
