@@ -1,0 +1,17 @@
+{
+  "name": "flatstack",
+  "version": "0.0.01",
+  "description": "flatstack.js ============",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/classdojo/flatstack.js.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "4c17831e431d52dcf3c2496cd8e6867e12a01c56"
+}
