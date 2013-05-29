@@ -4,11 +4,15 @@
   "description": "flatstack.js ============",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/classdojo/flatstack.js.git"
+  },
+  "devDependencies": {
+    "expect.js": "0.2.x",
+    "mocha": "1.10.x"
   },
   "author": "",
   "license": "BSD",
