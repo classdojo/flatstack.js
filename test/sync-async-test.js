@@ -167,7 +167,7 @@ describe("flatstack", function() {
         });
       });
 
-      it("at the end", function() {
+      it("at the end", function(next) {
           var buffer = "";
           queue.push(function(next) {
             buffer += "a";
