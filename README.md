@@ -1,3 +1,6 @@
+[![Alt ci](https://travis-ci.org/classdojo/flatstack.js.png)](https://travis-ci.org/classdojo/flatstack.js)
+
+
 
 ```javascript
 var flatstach = require("flatstack");
