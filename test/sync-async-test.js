@@ -3,7 +3,7 @@ flatstack  = require("..");
 flatstack.asyncLimit = 0;
 
 describe("flatstack", function() {
-  var queue = flatstack();
+  var queue = flatstack({ enforceAsync: true });
 
   it("can add, and run a list of functions synchronously", function() {
     var i = 0;
